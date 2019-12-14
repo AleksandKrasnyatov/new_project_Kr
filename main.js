@@ -29,6 +29,32 @@ const comparison=(a,b)=> {
   })
   console.log (arr7)
 
+  console.log ('4 задание')
+  const Ch='соль';
+  const Sh='шестой';
+  const Sem='седьмой';
+  const Vos='антрекот';
+  const Dv='замысловатый';
+  const arr28=[4,6,7,8,12]
+  const arr29 = arr28.map((i)=>{
+    if (i==Ch.length) {
+      return Ch
+    }
+    else if (i==Sh.length){
+      return Sh
+    }
+    else if (i==Sem.length){
+      return Sem
+    }
+    else if (i==Vos.length){
+      return Vos
+    }
+    else if (i==Dv.length){
+      return Dv
+    }
+  })
+  console.log (arr29)
+
   console.log ('5 задание')
   for (let y=1; y<=25; y++){
     console.log('Я номер',y);
