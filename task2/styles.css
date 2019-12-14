@@ -1,0 +1,23 @@
+.wrapper{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    border: 2px solid gray;
+    padding: 20px;
+    flex-direction: column;
+}
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+  }
+ input{
+     margin: 4px;
+ } 
